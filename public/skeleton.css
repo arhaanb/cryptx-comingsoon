@@ -1,3 +1,18 @@
+a {
+  text-decoration: none;
+}
+
+::-moz-selection {
+  /* Code for Firefox */
+  color: #fff;
+  background: #6699ee;
+}
+
+::selection {
+  color: #fff;
+  background: #6699ee;
+}
+
 .container {
   position: relative;
   width: 100%;
@@ -132,7 +147,8 @@
   src: url("../fonts/minet.eot");
   src: url("../fonts/minet.eot?#iefix") format("embedded-opentype"), url("../fonts/minet.woff2") format("woff2"), url("../fonts/minet.woff") format("woff"), url("../fonts/minet.ttf") format("truetype"), url("../fonts/minet.svg#virgo_01regular") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+}
 
 /* Base Styles
 â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
@@ -152,15 +168,6 @@ body {
   font-weight: 400;
   font-family: "europa", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222;
-}
-
-.blot {
-  font-family: 'virgo 01';
-  font-size: 2em;
-}
-
-.bhailogo {
-  font-family: 'virgo 01';
 }
 
 /* Typography
@@ -235,19 +242,7 @@ p {
   margin-top: 0;
 }
 
-/* Links
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
-
-a {
-  color: #1EAEDB;
-}
-
-a:hover {
-  color: #0FA0CE;
-}
-
-/* Buttons
-â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“â€“ */
+/* Buttons */
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
   display: inline-block;

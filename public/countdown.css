@@ -19,6 +19,17 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "minet";
+    src: url("/fonts/virgo.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.minet {
+    font-family: 'minet';
+}
+
 img {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -59,7 +70,7 @@ a {
 }
 
 .vh {
-    height: 90vh;
+    height: 85vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
