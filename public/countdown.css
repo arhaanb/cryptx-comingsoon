@@ -1,0 +1,79 @@
+@font-face {
+    font-family: "europa";
+    src: url("/fonts/europa-bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "europa-regular";
+    src: url("/fonts/europa-regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "adobe garamond pro";
+    src: url("/fonts/garamond.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+body {
+    background-color: #fff;
+    color: #222;
+    font-family: 'europa';
+}
+
+.mono {
+    font-family: 'europa-regular';
+}
+
+.center {
+    text-align: center;
+}
+
+a {
+    color: #fff;
+}
+
+/* h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+} */
+
+.blue {
+    color: #6699ee;
+}
+
+.white {
+    color: #fff;
+}
+
+.vh {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #fff;
+    color: #9B5AB6;
+    border-style: none;
+    font-family: 'europa';
+}
+
+button:hover {
+    background-color: rgb(105, 49, 129);
+    color: #fff;
+}
