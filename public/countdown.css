@@ -57,9 +57,9 @@ a {
     color: #fff;
 }
 
-/* h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
-} */
+}
 
 .blue {
     color: #6699ee;
@@ -81,14 +81,19 @@ a {
     width: 10em;
 }
 
-button {
-    background-color: #fff;
-    color: #9B5AB6;
-    border-style: none;
-    font-family: 'europa';
+html, body {
+    height: 100%;
+    margin: 0;
 }
 
-button:hover {
-    background-color: rgb(105, 49, 129);
-    color: #fff;
+/* Trick */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+    padding: 1em 0;
 }
